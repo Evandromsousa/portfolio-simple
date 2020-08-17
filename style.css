@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.pagina-inicial {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+body, html {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 30pt;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #2c3e50;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.logo {
+    margin-left: 150px;
+}
+.barra-nav {
+    margin-right: 160px;
+    
+}
+
+.barra-nav a {
+    padding: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.barra-nav a:hover {
+    color:#1abc9c;
+}
+
+.container-verde {
+    background-color: #1abc9c;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 65px;
+    color: white;
+
+}
+
+.logo-central h1 {
+    font-size: 65px;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.logo-central h3 {
+        font-size: 25px;
+        margin-top: 60px;
+        text-align: center;
+    
+
+}
+
+.logo-central img {
+    width: 240px;
+    margin: 0px 300px;
+    
+}
+.portifolio h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+    padding-bottom: 50px;
+}
+
+.portifolio {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    width: 330px;
+    height: 240px;
+}
+
+.container-images {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.image-block {
+    display: inline-block;
+    padding-right: 30px;
+    border-radius: 6px;
+    padding-bottom: 40px;
+}
+
+.image-block img {
+    border-radius: 10px;
+}
